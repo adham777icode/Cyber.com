@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cov"></div>
+    <img src="pexels-mati-mango-5952651.jpg" alt="" class="bg-img">
+    <nav class="nav">
+        <div class="logo">CYBE<span class="let-r">R</span></div>
+        <ul class="links">
+            <li><a href="#welcome">Home</a></li>
+            <li><a href="#plans">Plans</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+
+        <div onclick="showMenu()" class="res-menu">
+            <span class="fir"></span>
+            <span class="sec"></span>
+            <span class="thi"></span>
+        </div>
+    </nav>
+
+    <div id="menu" class="menu" style="display: none;">
+        <div onclick="hideMenu()" class="menu-close">
+            <span class="cfir"></span>
+            <span class="csec"></span>
+        </div>
+        <ul class="menu-links">
+            <li><a href="#welcome">Home</a></li>
+            <li><a href="#plans">Plans</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </div>
+
+    <section id="welcome" class="welcome">
+        <div class="wel-desc">Welcome To CYBE<span class="let-r">R</span>, Secure Your Website Now, With Low Cost.</div>
+        <button class="wel-btn"><a class="wel-btn-txt" href="#plans">Get Started</a></button>
+    </section>
+
+    <section id="plans" class="plans">
+        <div class="plan1 plan">
+            <div class="plan-tit">Basic</div>
+            <ul class="plan-ben">
+                <li>✔️ 1 Month</li>
+                <li>✔️ Data Encryption</li>
+                <li>✔️ No Search Engine Blacklisting</li>
+            </ul>
+            <div class="plan-prc">9.<span class="plan-prc-sec">99</span>$</div>
+            <div class="plan-btn-cont"><button class="plan-btn">Subscribe</button></div>
+        </div>
+
+        <div class="plan2 plan">
+            <div class="plan-tit">Deluxe</div>
+            <ul class="plan-ben">
+                <li>✔️ 6 Month</li>
+                <li>✔️ Data Encryption</li>
+                <li>✔️ No Search Engine Blacklisting</li>
+                <li>✔️ SSL Certificate</li>
+            </ul>
+            <div class="plan-prc">19.<span class="plan-prc-sec">99</span>$</div>
+            <div class="plan-btn-cont"><button class="plan-btn">Subscribe</button></div>
+        </div>
+
+        <div class="plan3 plan">
+            <div class="plan-tit">Premium</div>
+            <ul class="plan-ben plan3-ben">
+                <li>✔️ 1 Year</li>
+                <li>✔️ Data Encryption</li>
+                <li>✔️ No Search Engine Blacklisting</li>
+                <li>✔️ SSL Certificate</li>
+                <li>✔️ Defeat DoS/DDoS Attacks</li>
+                <li>✔️ Defeat Ransomware</li>
+            </ul>
+            <div class="plan-prc">39.<span class="plan-prc-sec">99</span>$</div>
+            <div class="plan-btn-cont"><button class="plan-btn">Subscribe</button></div>
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="conta-tit">Contact Us</div>
+        <div class="icons-cont">
+            <img src="facebook-svgrepo-com.svg" alt="Facebook" class="ico">
+            <img src="linkedin-svgrepo-com.svg" alt="LinkedIn" class="ico">
+            <img src="twitter.svg" alt="Twitter" class="ico">
+            <img src="instagram-svgrepo-com.svg" alt="Instgram" class="ico">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-tit">About</div>
+        <div class="about-cont">We Are CYBER, Our Sevice Is Secure Your Website With Suitable Cost, Choose Your <a class="pln-txt" href="#plans">Plan</a> And Get Started.</div>
+    </section>
+    <script src="resNav.js"></script>
+</body>
+</html>
