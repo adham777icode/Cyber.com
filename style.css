@@ -343,6 +343,7 @@ body {
 /*Responsive Menu*/
 
 .res-menu {
+    display: none;
     position: relative;
     left: 80%;
     width: 45px;
@@ -457,5 +458,9 @@ body {
 
     .about {
         top: 110%;
+    }
+
+    .res-menu {
+        display: block;
     }
 }
